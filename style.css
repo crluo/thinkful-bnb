@@ -163,10 +163,12 @@ footer p {
   form select,
   form input {
     margin: 0px;
+    flex-wrap: wrap;
   }
 
   .search-form {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 }
